@@ -17,7 +17,7 @@ export const config = {
 }
 
 if (config.groqApiKey && !config.modelName) {
-  config.modelName = 'openai/gpt-oss-20b'
+  config.modelName = 'openai/gpt-oss-120b'
 } else if (config.geminiApiKey && !config.modelName) {
   config.modelName = 'gemini-3.8-flash'
 } else {
