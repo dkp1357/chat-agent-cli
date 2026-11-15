@@ -10,10 +10,10 @@ export const config = {
   maxSessionMessages: 40,
 
   // maximum memory excerpts to inject into context
-  maxMemoryExcerpts: 8,
+  maxMemoryExcerpts: 10,
 
   // maximum agent steps (tool calls) per turn
-  maxSteps: 12,
+  maxSteps: 10,
 }
 
 if (config.groqApiKey && !config.modelName) {

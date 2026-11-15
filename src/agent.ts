@@ -9,7 +9,6 @@ import { retrieveMemory } from './memory/retrieve.js';
 import {
   createSession,
   saveMessage,
-  getSessionMessages,
 } from './memory/store.js';
 
 const gemini = createGoogleGenerativeAI({
