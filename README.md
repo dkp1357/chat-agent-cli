@@ -12,9 +12,9 @@ npm run dev
 
 ## API Keys
 
-`TAVILY_API_KEY` = Tavily is a web search tool specialised for AI Agents
-`GEMINI_API_KEY` = Used to access Gemini AI models
-`GROQ_API_KEY`= Used to access models from Groq API
+- `TAVILY_API_KEY` = Tavily is a web search tool specialised for AI Agents
+- `GEMINI_API_KEY` = Used to access Gemini AI models
+- `GROQ_API_KEY`= Used to access models from Groq API
 
 Requires Groq or Gemini api key + Tavily api key (Groq preferred for fast inference)
 
@@ -37,9 +37,9 @@ User -> Memory Retrieval -> Context Assembly -> LLM + Search Loop -> Response
 
 ## Stack
 
-Runtime: Node.js + Typescript
-Data Parsing: chrono-node
-Memory: SQLite + FTS5 using better-sqlite3
-Agent framework: Vercel AI SDK
-Search: Tavily
-LLM: Groq, Gemini
+- Runtime: Node.js + Typescript
+- Data Parsing: chrono-node
+- Memory: SQLite + FTS5 using better-sqlite3
+- Agent framework: Vercel AI SDK
+- Search: Tavily
+- LLM: Groq, Gemini
